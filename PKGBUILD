@@ -2,18 +2,18 @@
 # Contributer: WyRe
 
 pkgname="pokemmo"
-pkgver=1.3
+pkgver=1.4
 pkgrel=1
 pkgdesc="MMO based on the Pokémon Universe"
 arch=('x86_64' 'i686')
 url="https://pokemmo.eu"
 license=('custom')
-depends=('java-runtime' 'wget' 'openssl')
+depends=('jre8-openjdk' 'wget' 'openssl')
 optdepends=('zenity: Information/Error message UI')
 install="${pkgname}.install"
 
 source=('pokemmo-launcher' 'pokemmo.desktop' 'pokemmo-launcher.png')
-sha256sums=('c3db3b0d03db8bde29591947302ea773135c82096f6e0c15abc367c636bdde66'
+sha256sums=('3a934b4c1670b6b0cdd2957f8104bf63ca6dd14053662d866fd909a196cccf8b'
 '5be349827e2798bce275c16a554ab32f5aa3cf62859200effa5328c26d1233dc'
 '50d0c73eb7e23dcec4c36304cb9008a448e8127628eadb1166c3343f6fdd5ee3')
 
